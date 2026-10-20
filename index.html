@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Marzook weds Lubna — December 14, 2026</title>
+  <meta name="description" content="You are cordially invited to the wedding of Marzook and Lubna on December 14, 2026 in Kollam." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@400;700&family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400;1,500&family=Great+Vibes&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- Floating petals background -->
+  <div id="petals-container" aria-hidden="true"></div>
+
+  <!-- ===== ENVELOPE SCENE ===== -->
+  <section id="envelope-scene" class="scene active" aria-label="Wedding envelope">
+    <div class="scene-bg"></div>
+
+    <div class="envelope-wrapper" id="envelope-wrapper">
+
+      <!-- Envelope body -->
+      <div class="envelope" id="envelope" role="button" tabindex="0" aria-label="Click to open the invitation">
+
+        <!-- Back of envelope -->
+        <div class="env-back"></div>
+
+        <!-- Bottom flap -->
+        <div class="env-flap env-flap-bottom"></div>
+        <!-- Left flap -->
+        <div class="env-flap env-flap-left"></div>
+        <!-- Right flap -->
+        <div class="env-flap env-flap-right"></div>
+
+        <!-- Top flap (animated) -->
+        <div class="env-flap env-flap-top" id="env-flap-top">
+          <div class="flap-inner">
+            <div class="wax-seal" id="wax-seal">
+              <span class="seal-monogram">M<span class="seal-amp">&amp;</span>L</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Envelope front overlay with decorative details -->
+        <div class="env-front-overlay">
+          <div class="env-address">
+            <p class="env-dear">— You are cordially invited —</p>
+          </div>
+          <div class="env-postal-decor" aria-hidden="true">
+            <div class="stamp">
+              <div class="stamp-inner">
+                <span class="stamp-text">LOVE</span>
+                <span class="stamp-date">DEC 14</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Card peeks out from envelope when opening -->
+        <div class="card-peek" id="card-peek">
+          <div class="card-peek-inner"></div>
+        </div>
+      </div>
+
+      <p class="click-hint" id="click-hint">
+        <span class="hint-icon">✦</span> Tap the envelope to open <span class="hint-icon">✦</span>
+      </p>
+    </div>
+  </section>
+
+  <!-- ===== INVITATION CARD SCENE ===== -->
+  <section id="card-scene" class="scene" aria-label="Wedding invitation card" aria-hidden="true">
+    <div class="scene-bg card-scene-bg"></div>
+
+    <div class="card-container" id="card-container">
+      <div class="invitation-card" id="invitation-card">
+
+        <!-- Decorative corner ornaments -->
+        <div class="corner corner-tl" aria-hidden="true"></div>
+        <div class="corner corner-tr" aria-hidden="true"></div>
+        <div class="corner corner-bl" aria-hidden="true"></div>
+        <div class="corner corner-br" aria-hidden="true"></div>
+
+        <!-- Top ornamental divider -->
+        <div class="ornament-top" aria-hidden="true">
+          <div class="orn-line"></div>
+          <span class="orn-diamond">◆</span>
+          <div class="orn-line"></div>
+        </div>
+
+        <!-- Bismillah / blessing line -->
+        <p class="bismillah">بِسْمِ اللهِ الرَّحْمٰنِ الرَّحِيْم</p>
+
+        <!-- Opening message -->
+        <p class="opening-verse">
+          "And of His signs is that He created for you from yourselves mates that you may find tranquillity in them"
+          <span class="verse-ref">— Qur'an 30:21</span>
+        </p>
+
+        <div class="divider-small" aria-hidden="true">❧</div>
+
+        <!-- Together with families -->
+        <p class="together-text">Together with their families</p>
+
+        <!-- Names section -->
+        <div class="names-section">
+          <h1 class="groom-name">Marzook</h1>
+          <div class="names-and-wrapper">
+            <div class="and-line" aria-hidden="true"></div>
+            <span class="and-symbol">&amp;</span>
+            <div class="and-line" aria-hidden="true"></div>
+          </div>
+          <h2 class="bride-name">Lubna</h2>
+        </div>
+
+        <div class="divider-small" aria-hidden="true">❦</div>
+
+        <!-- Invite line -->
+        <p class="invite-line">joyfully invite you to celebrate their</p>
+        <p class="wedding-label">Wedding Celebration</p>
+
+        <!-- Details section -->
+        <div class="details-section">
+
+          <div class="detail-block">
+            <div class="detail-icon" aria-hidden="true">&#128197;</div>
+            <p class="detail-label">DATE</p>
+            <p class="detail-value">Monday, December 14</p>
+            <p class="detail-sub">2026</p>
+          </div>
+
+          <div class="detail-divider" aria-hidden="true">✦</div>
+
+          <div class="detail-block">
+            <div class="detail-icon" aria-hidden="true">&#128341;</div>
+            <p class="detail-label">TIME</p>
+            <p class="detail-value">6:00 PM</p>
+            <p class="detail-sub">onwards</p>
+          </div>
+
+          <div class="detail-divider" aria-hidden="true">✦</div>
+
+          <div class="detail-block">
+            <div class="detail-icon" aria-hidden="true">&#128205;</div>
+            <p class="detail-label">VENUE</p>
+            <p class="detail-value">Kollam</p>
+            <p class="detail-sub">Near Parappalli Makhaam &amp; Pisharikavu Temple</p>
+          </div>
+        </div>
+
+        <!-- Bottom ornamental divider -->
+        <div class="ornament-bottom" aria-hidden="true">
+          <div class="orn-line"></div>
+          <span class="orn-floral">✿</span>
+          <div class="orn-line"></div>
+        </div>
+
+        <!-- Closing message -->
+        <p class="closing-message">We look forward to sharing this beautiful occasion with you.</p>
+        <p class="closing-tag">— With love, Marzook &amp; Lubna —</p>
+
+      </div>
+    </div>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+</html>
